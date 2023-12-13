@@ -1,0 +1,4 @@
+I have to add the event handler for add to cart in the Menu.jsx 
+Have to check that all components function as they should... 
+Fix the about page... search icon in a tag and general layout 
+Login page TABS set active tab... create two buttons (tabs)

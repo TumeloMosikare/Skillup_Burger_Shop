@@ -15,7 +15,7 @@ function DropdownMenu() {
   }, []);
 
   return (
-    <div>
+    <div className="dropdown">
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container">
           <a className="navbar-brand" href="#">
@@ -31,7 +31,7 @@ function DropdownMenu() {
             >
               Menu
             </button>
-            <ul class="dropdown-menu dropdown-menu-end">
+            <ul className="dropdown-menu dropdown-menu-end">
               {navLinks.map((d, i) => (
                 <li key={i}>
                   <Link to={d.path}>

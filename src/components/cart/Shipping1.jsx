@@ -2,7 +2,7 @@ import React from "react";
 import { Country, State } from "country-state-city";
 import Popup from 'reactjs-popup';
 
-function Shipping(){
+const Shipping = () => {
   return (
     <section className="shipping">
       <main>
@@ -53,7 +53,7 @@ function Shipping(){
               
           
           <Popup trigger=
-                {<button className="link">Confirm Order</button>}
+                {<button type = "button">Confirm Order</button>}
                 position="right center">
                 <div style={{color:"red",position: 'absolute', top: '50%', right: '100%', transform: 'translateY(-50%)', backgroundColor: '#fff', padding: '10px', borderRadius: '5px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)'}}>Order Placed</div>
                
@@ -62,6 +62,6 @@ function Shipping(){
       </main>
     </section>
   );
-}
+};
 
 export default Shipping;

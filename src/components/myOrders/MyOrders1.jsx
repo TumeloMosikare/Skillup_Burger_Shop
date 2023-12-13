@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineEye } from "react-icons/ai";
 
-function MyOrders() {
+const MyOrders = () => {
   const arr = [1, 2, 3, 4];
 
   return (
@@ -19,6 +19,8 @@ function MyOrders() {
               <th>Action</th>
             </tr>
           </thead>
+
+          <tbody>
           <tbody>
                     {arr.map((i) => (
                     <tr key={i}>
@@ -33,13 +35,15 @@ function MyOrders() {
                             </Link>
                             </td>
                     </tr>
-                    ))}; 
-          
+                    ))}
+            </tbody>;
+
+           
           </tbody>
         </table>
       </main>
     </section>
   );
-}
+};
 
 export default MyOrders;
