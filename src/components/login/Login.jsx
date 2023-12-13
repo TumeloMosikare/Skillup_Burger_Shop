@@ -15,8 +15,10 @@ import { FaFacebook } from "react-icons/fa";
 
 function Login(){
 return(
-    <div>
-<MDBTabsPane show={"LOGIN"} >
+    
+<MDBTabsPane show={"login"}>
+<MDBTabs><MDBBtn className="mb-4 w-100">Login</MDBBtn>
+<MDBBtn className="mb-4 w-100">Register</MDBBtn></MDBTabs>
 
  <div className="text-center mb-3">
  <p>Sign in with:</p>
@@ -58,7 +60,7 @@ return(
  Not a member? <a href="#!">Register</a>
  </p>
 </MDBTabsPane>
-</div>
+
 );
 
 }

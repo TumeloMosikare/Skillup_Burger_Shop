@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { RiFindReplaceLine } from "react-icons/ri";
 import me from "../../assets/skj.jpg";
 
+
 function About(){
     return(
         
@@ -20,7 +21,7 @@ function About(){
                                 Explore the various types of food and burgers. Click below to see the
                                 menu.
                                 </p>
-                                <a href="/Menu"><RiFindReplaceLine></RiFindReplaceLine></a>
+                                <a href="/Menu.jsx"><RiFindReplaceLine></RiFindReplaceLine></a>
                 </article>
         <div>
             <h2>Founder</h2>

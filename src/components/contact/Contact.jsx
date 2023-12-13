@@ -33,7 +33,7 @@ return(
 
 <div className='formBorder'>
     <div>
-        <img src={burger} alt="" />
+        <img src={burger} alt="formBurger" />
     </div>
 </div>
 
